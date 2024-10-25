@@ -18,14 +18,14 @@ Since 2FA is enabled on my account, this just asks you to manually log in after 
 
 To minimize errors , `scrape.py` is as generic as possible when scraping, and saves the entire HTML contents of the pages. Then `parse.py` tries to parse that into the values I want.
 
-Primarily written to get historical achievement data, to plug into `my.games.steam` for [`HPI`](https://github.com/seanbreckenridge/HPI)
+Primarily written to get historical achievement data, to plug into `my.games.steam` for [`HPI`](https://github.com/purarue/HPI)
 
 ---
 
 Requires `python3.7+`
 
 ```
-git clone https://github.com/seanbreckenridge/steamscraper
+git clone https://github.com/purarue/steamscraper
 cd steamscraper
 pip install -r ./requirements.txt
 # username is the one that works here: https://steamcommunity.com/id/<steam_username>/games?tab=all
